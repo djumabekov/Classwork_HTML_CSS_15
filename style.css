@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+.wrapper{
+    max-width: 1440px;
+    min-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+}
+.header_text{
+    border: 1px solid gray;
+    height: 80px;
+    background-color: rgb(255, 227, 151);
+    font-size: 2em;
+    display: flex;
+    justify-content: center; /*выравнивание по Х*/
+    align-items: center; /*выравнивание по У*/
+}
+
+.nav_text{
+    border: 1px solid gray;
+    display: flex;
+    height: 80px;
+    background-color: aqua;
+    justify-content: right; /*выравнивание по Х*/
+    align-items: center; /*выравнивание по У*/
+    font-size: 1.5em;
+}
+main{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.banner{
+    border: 1px solid gray;
+    flex-direction:column;
+    height: 100px;
+    width: 200px;
+    background-color: rgba(50, 135, 233, 0.918);
+    justify-content: center; /*выравнивание по Х*/
+    align-items:center; /*выравнивание по У*/
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.main_text{
+    border: 1px solid gray;
+    height: 300px;
+    width: 1240px;
+    background-color: tomato;
+    display: flex;
+    flex-direction:row;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+footer{
+    border: 1px solid gray;
+
+    background-color: rgb(255, 253, 160);
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex-basis: 100px;
+}
